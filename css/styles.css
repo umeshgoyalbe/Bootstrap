@@ -1,0 +1,187 @@
+body{
+    font-family: "Montserrat";
+    line-height: 1.5;
+    text-align: center;
+}
+
+h1,h2,h3{
+    font-family: "Montserrat-bold";
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+h2{
+    
+    font-size: 3rem;
+    
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.heading-1{
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+}
+
+.image{ 
+        transform: rotate(25deg);  
+        width: 50%;
+        position: absolute;
+        z-index: 0;
+        right: 30%;
+}
+
+/* Navbar */
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    margin: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* Download Button */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Features Section */
+#features{
+    text-align: center;
+    padding: 7% 15%;
+    
+    position: relative;
+    z-index: 1;
+    background-color: #FFF;
+}
+
+.fp{
+    color: #8f8f8f;
+}
+
+.icons{
+    font-size: 4rem;
+    color: #ef8172;
+}
+
+.icons:hover{
+    color: #ff4c68
+}
+
+/* Testimonial Section */
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.my-button{
+    background-color: #ef8172;
+    border: none;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.card{
+    margin: 3% 2%;
+}
+
+
+/* Second last section*/
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.cta-h3{
+    font-family: "Montserrat-Black";
+    font-size:3rem;
+    width: 50%;
+    margin: auto;
+    font-weight: bold;
+    padding: 3% 0 0 0;
+}
+
+/* Footer */
+
+#footer{
+    text-align: center;
+    padding: 5%;
+}
+
+.foot{
+    padding: 2% 1%;
+    color: #000;
+}
+
+/* Media Query - For responsiveness */
+
+@media (max-width:1028px){
+    .image{
+        position: static;
+        transform: rotate(0);
+    }
+
+    .title{
+        text-align: center;
+    }
+}
